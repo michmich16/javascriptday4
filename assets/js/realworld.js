@@ -18,6 +18,7 @@ myAnsverButton.addEventListener('click', (e) => {
   og "du har svarret forkert" hvis svaret er false*/
   let myAnswer = myAnsverInput.value;
   console.log('Answer is: ' + myAnswer);
+  alert('du har svarret rigtigt')
 });
 
 /*Opgave 2: udkommenter opgave 1, og omskriv nu din funktion til to korrekte svar:
